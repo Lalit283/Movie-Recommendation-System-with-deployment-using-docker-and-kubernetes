@@ -22,7 +22,7 @@ STEP 4:Model Deployment
 Created model has been containerized using docker and its been pushed to container repository.
 Its then deployed in Kubernetes to manage and increase scalability of the application.
 
-![image](https://user-images.githubusercontent.com/64595758/130807050-ab633c7c-5f54-448a-9fc7-aa680756736d.png)
+![image](https://www.wallpaperup.com/uploads/wallpapers/2015/12/12/858715/38ab8700ce1051a9b2311504d06f8289-1000.jpg)
 
 Application url- http://35.230.8.59/
 
