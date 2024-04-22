@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 24 12:30:20 2021
-
-@author: Chandramouli
-"""
-
 import pandas as pd
 import numpy as np
 import requests
