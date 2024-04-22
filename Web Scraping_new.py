@@ -3,8 +3,7 @@ import numpy as np
 import requests
 from bs4 import BeautifulSoup
 
-
-
+## Data Call from website
 headers = ({'User-Agent':
             'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
            'Accept-Language': 'en-US, en;q=0.5'})
@@ -58,8 +57,9 @@ for page in pages:
         
         director.append(dire)
         
-        #cas=([a.text for a in store.find('p',class_='').find_all('a')[1:]])
-        #cast=','.join(map(str,cas))
+        cas=([a.text for a in store.find('p',class_='').find_all('a')[1:]])
+        cast=','.join(map(str,cas))
+
         cast.append([a.text for a in store.find('p',class_='').find_all('a')[1:]])
       
         value = store.find_all('span', attrs = {'name':'nv'}) if store.find_all('span', attrs = {'name':'nv'}) else 'NA'
